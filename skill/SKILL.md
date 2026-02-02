@@ -1,4 +1,7 @@
-# Google Agent Development Kit (ADK) Skill
+---
+name: adk-skill
+description: Teaches AI agents how to correctly implement the Google Agent Development Kit (ADK) across Python, Go, TypeScript, and Java.
+---
 
 ## Description
 

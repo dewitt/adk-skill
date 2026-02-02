@@ -48,7 +48,9 @@ To maintain trust in this skill, all changes must be verified:
 
 1. **Markdown Formatting:** All markdown files must be formatted with
    `mdformat --wrap 78`. This ensures human readability in terminal
-   environments and consistent diffs.
+   environments and consistent diffs. **Exception:** Do not run `mdformat` on
+   files with YAML frontmatter (like `SKILL.md`), as it may corrupt the
+   metadata.
 1. **External Content:** When importing `llms.txt` or `llms-full.txt` files
    from upstream repositories, preserve their original formatting to maintain
    fidelity with the source.

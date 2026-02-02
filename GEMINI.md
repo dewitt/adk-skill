@@ -21,5 +21,7 @@ AI agents.
    work as intended. This includes checking links, validating code snippets,
    and ensuring the "Router" logic in `SKILL.md` accurately directs users.
 1. **Formatting.** Always format markdown files using `mdformat --wrap 78`
-   before finishing a task. Exception: Preserve original formatting if copying
-   `llms.txt` or `llms-full.txt` from another repository.
+   before finishing a task. Exception: Preserve original formatting if
+   copying `llms.txt` or `llms-full.txt` from another repository, and DO NOT
+   run `mdformat` on files with YAML frontmatter (like `SKILL.md`).
+
