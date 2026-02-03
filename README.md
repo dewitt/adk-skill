@@ -9,7 +9,8 @@ Agent Development Kit (ADK) across multiple programming languages.
 The goal is to provide high-fidelity, context-aware instructions to AI coding
 assistants, ensuring they:
 
-1. Understand the high-level ADK architecture (Genkit, Agents, Flows, MCP).
+1. Understand the high-level ADK architecture (Agents, Workflow Agents, MCP,
+   Sessions & Memory).
 1. Use the correct language-specific patterns (Python, Go, TS/JS, Java).
 1. Reference the official sources of truth rather than hallucinating APIs.
 
